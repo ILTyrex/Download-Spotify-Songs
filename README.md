@@ -8,28 +8,21 @@ FFmpeg: Ensure FFmpeg is installed and accessible from the system PATH. You can 
 Installation
 Clone the repository:
 
-sh
-Copiar código
 git clone https://github.com/your-username/your-repository.git
 cd your-repository
 Install the required dependencies:
 
-sh
-Copiar código
+
 pip install spotipy yt-dlp tkinter
 Set up FFmpeg on your system. Add the path to ffmpeg to your system's PATH environment variable.
 
 Configuration
 Open the Python file and configure your Spotify credentials:
-python
-Copiar código
 client_id = 'YOUR_CLIENT_ID'
 client_secret = 'YOUR_CLIENT_SECRET'
 Usage
 Run the application:
 
-sh
-Copiar código
 python your_script_name.py
 Enter the link of a Spotify or YouTube song or playlist in the text field.
 
